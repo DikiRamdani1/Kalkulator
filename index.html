@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="input">
+                <input id="input" type="text" disabled>
+            </div>
+            <div class="listBtn">
+                <div class="btn">
+                    <button onclick="valueButton('1')">1</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('2')">2</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('3')">3</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('+')">+</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('4')">4</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('5')">5</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('6')">6</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('-')">-</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('7')">7</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('8')">8</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('9')">9</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('*')">X</button>
+                </div>
+                <div class="btn">
+                    <button onclick="clearValue()">C</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('0')">0</button>
+                </div>
+                <div class="btn">
+                    <button onclick="resultValue()">=</button>
+                </div>
+                <div class="btn">
+                    <button onclick="valueButton('/')">/</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
